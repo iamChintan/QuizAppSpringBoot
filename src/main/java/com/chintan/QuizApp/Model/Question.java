@@ -6,8 +6,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-@Data
 @Entity
+@Data
 public class Question {
 
     @Id
@@ -22,3 +22,4 @@ public class Question {
     private String difficultyLevel;
     private String category;
 }
+
